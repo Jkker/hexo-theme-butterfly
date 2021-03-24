@@ -1,3 +1,9 @@
+<div align="right">
+  語言:
+  中文
+  <a title="English" href="/README.md">英文</a>
+</div>
+
 # hexo-theme-butterfly
 
 ![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/master?color=%231ab1ad&label=master)
@@ -6,7 +12,7 @@
 ![hexo version](https://img.shields.io/badge/hexo-5.0+-0e83c)
 ![license](https://img.shields.io/github/license/jerryc127/hexo-theme-butterfly?color=FF5531)
 
-預覽: 👍 [Butterfly](https://butterfly.js.org/)  ||  🤞 [JerryC](https://jerryc.me/)
+預覽: 👍 [Butterfly](https://butterfly.js.org/)  ||  🤞 [MYW](https://immyw.com/)
 
 文檔: 📖 [Butterfly Docs](https://butterfly.js.org/posts/21cfbf15/)
 
