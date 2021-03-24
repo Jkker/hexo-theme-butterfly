@@ -1,4 +1,5 @@
 #footer-wrap
+  
   if theme.footer.owner.enable
     - var now = new Date()
     - var nowYear = now.getFullYear()
@@ -10,8 +11,8 @@
     .framework-info
       span= _p('footer.framework') + ' '
       a(href='https://hexo.io')= 'Hexo'
-      span.footer-separator |
+      span.footer-separator  |
       span= _p('footer.theme') + ' '
-      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
+      a(href=`${theme.footer.theme_url}`)= `${theme.footer.theme_name}`
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`

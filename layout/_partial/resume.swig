@@ -2,14 +2,14 @@
   <header>
     <div class="name-wrapper">
       <div id="fullname" class="title">
-        {{ theme.resume.name }}
+        {{ page.resume.name }}
       </div>
       <div id="jobtitle" class="sub-title">
-        {{ theme.resume.jobtitle }}
+        {{ page.resume.jobtitle }}
       </div>
     </div>
     <div id="contact" class="contact">
-      {% for item in theme.resume.contact %}
+      {% for item in page.resume.contact %}
       <div class="contact-item">
         {% if item.link %}
         <a href="{{ item.link }}">
@@ -22,18 +22,18 @@
       {% endfor %}
     </div>
     <div class="portrait">
-      {% if theme.resume.portrait %}
-      <img class="author-img" src="{{theme.resume.portrait}}" alt="author-img"/>
+      {% if page.resume.portrait %}
+      <img class="author-img" src="{{page.resume.portrait}}" alt="author-img"/>
       {% endif %}
     </div>
   </header>
 
   <section id="education">
     <div class="section-title">
-      {{ __('resume.education') }} 
+      {{ __('resume.education') }}
     </div>
     <div class="section-content">
-      {% for edu in theme.resume.education %}
+      {% for edu in page.resume.education %}
       <div class="block">
         <div class="block-title">
           {% if edu.link %}
@@ -57,10 +57,10 @@
 
   <section id="experience">
     <div class="section-title">
-      {{ __('resume.experience') }} 
+      {{ __('resume.experience') }}
     </div>
     <div class="section-content">
-      {% for exp in theme.resume.experience %}
+      {% for exp in page.resume.experience %}
       <div class="block">
         <div class="block-title">
           {{ exp.title }}
@@ -78,10 +78,10 @@
 
   <section id="projects">
     <div class="section-title">
-      {{ __('resume.projects') }} 
+      {{ __('resume.projects') }}
     </div>
     <div class="section-content">
-      {% for project in theme.resume.projects %}
+      {% for project in page.resume.projects %}
       <div class="block">
         <div class="block-title">
           {{ project.name }}
@@ -99,10 +99,10 @@
 
   <section id="skills">
       <div class="section-title">
-      {{ __('resume.skills') }} 
+      {{ __('resume.skills') }}
       </div>
       <div class="section-content">
-        {% for skill in theme.resume.skills %}
+        {% for skill in page.resume.skills %}
         <div class="block">
           <div class="block-title">
             {{ skill.title }}
