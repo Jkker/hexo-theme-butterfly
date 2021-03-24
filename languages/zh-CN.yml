@@ -116,3 +116,9 @@ loading: 加载中...
 error404:
   error_title: 页面没有找到
   back_button: 回到主页
+
+resume:
+  education: 教育
+  experience: 经历
+  projects: 项目
+  skills: 技能

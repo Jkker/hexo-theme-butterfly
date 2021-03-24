@@ -115,3 +115,9 @@ loading: Loading...
 error404:
   error_title: Page not found
   back_button: Go back home
+
+resume:
+  education: Education
+  experience: Experience
+  projects: Projects
+  skills: Skills
